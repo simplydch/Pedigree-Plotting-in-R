@@ -1,0 +1,10 @@
+name: Publish Document
+title:
+username:
+account: rpubs
+server: rpubs.com
+hostUrl: rpubs.com
+appId: https://api.rpubs.com/api/v1/document/649293/fc5a44663d4245d8bb9838a62a3886b1
+bundleId: https://api.rpubs.com/api/v1/document/649293/fc5a44663d4245d8bb9838a62a3886b1
+url: http://rpubs.com/simplydch/649293
+when: 1597510420.52578
