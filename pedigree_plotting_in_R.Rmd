@@ -24,7 +24,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 <h3><u>Plotting a pedigree</u></h3>
 
-<p>To demonstrated I have simulated a small simulated pedigree consisting of 136 individuals
+<p>To demonstrated I have simulated a small pedigree consisting of 136 individuals
 in 10 cohorts:<p>
 
 ```{r}
