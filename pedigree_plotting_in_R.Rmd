@@ -208,6 +208,8 @@ points(x_coor[desc_ref], y_coor[desc_ref])
 # This time we are interested in plotting both sire and dam links, but only to other
 # individuals in the list of descendants
 
+x_sire2 <- x_sire
+y_sire2 <- y_sire
 x_sire2[!(sire_ref %in% desc_ref & ids %in% ids[desc_ref])] <- NA
 y_sire2[!(sire_ref %in% desc_ref & ids %in% ids[desc_ref])] <- NA
 segments(x_coor, y_coor, x_sire2, y_sire2, col = "orange")

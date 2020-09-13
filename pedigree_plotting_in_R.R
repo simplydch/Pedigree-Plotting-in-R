@@ -166,7 +166,6 @@ x_sire2[!(sire_ref %in% desc_ref & ids %in% ids[desc_ref])] <- NA
 y_sire2[!(sire_ref %in% desc_ref & ids %in% ids[desc_ref])] <- NA
 segments(x_coor, y_coor, x_sire2, y_sire2, col = "orange")
 
-
 x_dam2 <- x_dam
 y_dam2 <- y_dam
 x_dam2[!(dam_ref %in% desc_ref & ids %in% ids[desc_ref])] <- NA
